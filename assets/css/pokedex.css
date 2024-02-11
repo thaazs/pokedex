@@ -6,12 +6,17 @@
     list-style: none;
 }
 
+.pokemon:hover {
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.1);
+}
+
 .normal {
     background-color: #969775;
 }
 
 .grass {
-    background-color: #50c878;
+    background-color: #49c797;
 }
 
 .fire {
